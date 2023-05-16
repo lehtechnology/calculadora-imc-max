@@ -19,7 +19,7 @@ body{
   background-repeat: no-repeat;
   background-position: 8px center;
   padding-left: 32px;
-  background-color: #ff00bba8;
+  background-color: #ff00bbf6;
   margin-bottom: 20px;
   border-radius: 20px;
   box-shadow: 0 0 200px #d02df5;
@@ -38,10 +38,11 @@ body{
   background-repeat: no-repeat;
   background-position: 12px center;
   padding-left: 40px;
-  background-color: #2600ffa8;
+  background-color: #2600ffe7;
   margin-bottom: 10px;
   border-radius: 20px;
 }
+
 .linkr-button {
   display: flex;
   justify-content: center;
@@ -52,8 +53,9 @@ body{
   width: 100%;
   max-width: 100%;
   margin: 0 auto;
-  padding: 20px;
+  padding: 20 auto;
   height: 40vh;
+  min-height: 50vh;
 }
 
   body {
@@ -93,7 +95,7 @@ body{
     margin-top: 10px;
     padding: 5px 10px;
     font-size: 16px;
-    background-color: #f300b2;
+    background-color: #4500f3;
     color: white;
     border: none;
     border-radius: 33px;
@@ -108,7 +110,7 @@ body{
     background-color: #1500fca8;
     margin-bottom: 40px;
     border-radius: 40px;
-    box-shadow: 0 0 5px #ff0077;
+    box-shadow: 0 0 5px #ff00d9;
   }
   
   .result p {
