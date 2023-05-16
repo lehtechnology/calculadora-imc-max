@@ -153,3 +153,17 @@ button {
     font-weight: bold;
     margin-bottom: -10px;
   }
+  @media screen and(max-width: 768px) {
+    section, aside {
+    width: 100%;
+    padding: 0;
+        }
+    }
+    
+    @media screen and(max-width: 600px) {
+    nav li {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    } 
