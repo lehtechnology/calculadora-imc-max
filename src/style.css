@@ -1,31 +1,35 @@
 body{
   background-image: url(../src/imagens/maxinepers.jpeg);
   background-repeat: no-repeat;
-  background-size: 850px 1050px;
-  background-position:center;
+  background-size: cover;
+  background-position: center;
 
   font-family: 'VT323', monospace;
-  font-size: 20px;
+  font-size: 18px;
   display:block;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  padding: 200px;
-  
+  min-height: 110vh;
+  padding: 0px;
 
 }
 .card {
-  width: 230px;
+  width: 280px;
+  max-width: 70%;
+  margin: 0 auto;
+  padding: 0px;
+  text-align: center;
+ 
+  display: center;
+  position:absolute;
+  top: 50%;
+  left:15%;
+
+
   border: 1px solid #ff0ba2;
-  padding: 20px; 
-  margin: 400px auto; 
-  text-align:center; 
-  display: center; 
-  height: 37vh;
   border-radius: 50px; 
   box-shadow: 0 0 10px #ff1493, 0 0 20px #ff1493, 0 0 0px #ff1493; 
-  margin-top: 300px;
-  margin-bottom: 260px;
+
 }
 .instagram-button__btn {
   background-image: url(../src/imagens/iconeinsta.png);
@@ -63,7 +67,7 @@ body{
   display:flex;
   justify-content: center;
   align-items: center;
-  height: 15vh;
+  height: 10vh;
 }
 
 .linkr-button__btn {
@@ -82,7 +86,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 0vh;
+  height: 5vh;
   margin-bottom: 10px;
 }
 
@@ -161,4 +165,3 @@ body{
       width: 100%;
   }
   } 
-
