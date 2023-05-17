@@ -10,8 +10,7 @@ body{
   justify-content: center;
   align-items: center;
   min-height: 110vh;
-  padding: 0px;
-
+  padding: 20px;
 }
 .card {
   width: 280px;
@@ -19,11 +18,12 @@ body{
   margin: 0 auto;
   padding: 0px;
   text-align: center;
- 
+  min-height: 47vh;
   display: center;
   position:absolute;
   top: 50%;
   left:15%;
+
 
 
   border: 1px solid #ff0ba2;
