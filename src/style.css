@@ -1,7 +1,7 @@
 body{
   background-image: url(../src/imagens/maxinepers.jpeg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 850px 1050px;
   background-position:center;
 
   font-family: 'VT323', monospace;
@@ -10,16 +10,18 @@ body{
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  padding: 20px;
+  padding: 200px;
+  
+
 }
 .card {
-  width: 200px;
+  width: 230px;
   border: 1px solid #ff0ba2;
-  padding: 0px; 
-  margin: 300px auto; 
+  padding: 20px; 
+  margin: 400px auto; 
   text-align:center; 
   display: center; 
-  height: 31vh;
+  height: 37vh;
   border-radius: 50px; 
   box-shadow: 0 0 10px #ff1493, 0 0 20px #ff1493, 0 0 0px #ff1493; 
   margin-top: 300px;
